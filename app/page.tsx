@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
@@ -16,7 +17,7 @@ export default function Home() {
         Hire Me!
       </button>
 
-      <img src="/next.svg" alt="Next.js Logo" className="h-16 mt-6" />
+      <Image src="/next.svg" alt="Next.js Logo" className="h-16 mt-6" />
     </main>
   );
 }
